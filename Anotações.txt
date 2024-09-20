@@ -3,4 +3,5 @@ HTML
         li - lista
             ol - lista não ordenada
             ul - lista ordenada
-        strong - textos que ficarem dentro desta tag ficarão em negrito
+        strong - textos que ficarem dentro desta tag ficarão em negrito.
+
