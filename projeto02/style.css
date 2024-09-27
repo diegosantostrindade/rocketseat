@@ -1,15 +1,26 @@
+/* Geral */
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+  min-height: 100vh;
 }
+
+/* Header */
 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: "Mulish", sans-serif;
-  margin: 38px 0;
+  margin: 650 auto;
+  padding-top: 65px;
 }
 
 header ul {
@@ -18,13 +29,17 @@ header ul {
   gap: 48px;
 }
 
-a {
+/* Main */
+
+header ul a {
   text-decoration: none;
   color: #1f1534;
+  opacity: 0.5;
 }
 
 a:hover {
   font-weight: bold;
+  opacity: 1;
 }
 
 main {
@@ -67,8 +82,7 @@ span {
 button {
   background-color: #69b99d;
   border: none;
-  width: 179px;
-  height: 56px;
+  padding: 16px 32px;
   border-radius: 4px;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -78,10 +92,23 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  text-transform: uppercase;
 }
 
-footer p {
-  margin: 82px auto 16px;
+button:hover {
+  background: #4e8270;
+}
+
+#bolas {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* Footer */
+
+footer {
   text-align: center;
   color: #000;
+  padding: 80px 0 30px 0;
 }
